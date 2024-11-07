@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    background: green;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+h2{
+    text-align: center;
+    font-size: .6rem;
+    margin-top: 3%;
+}
+.game-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.game-box{
+    width: 33.33%;
+    height: 33.33%;
+    border: 2px solid black;
+    font-size: 14rem;
+    text-align: center;
+}
